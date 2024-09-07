@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title> First FUllstack Class </title>
+    <style>
+        body{
+            display : flex;
+            justify-content: center;
+            align-items:center;
+            height:100vh;
+            background-color: #282c34;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        .hello{
+            font-size: 4rem;
+            color: #61dafb;
+            position: relative;
+            animation: float 2s infinite;
+        }
+
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-20px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+            }
+
+            .hello::after {
+                content: 'Hello';
+                
+
+
+            }
+        
+
+        </style>
+        </head>
+        <body>
+            <div class = "hello"> Hello </div>
+        </body>
+        </html>
